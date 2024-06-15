@@ -1,7 +1,7 @@
 import React from "react";
 
 export const About = () => (
-  <div id="about">
+  <div id="about" class="pl-6 pr-4 pb-5 pt-5">
     <h1>O mně</h1>
     <p>
       Kdo jsem: Mé DNA tvoří z 84,63 % lidské geny, ten zbytek je neznámého,
