@@ -12,15 +12,28 @@ export const About = () => (
       úplně nesouhlasím, úzce specializovaný člověk ztrácí přehled o větším
       obrazu a hraje si tzv. na svém písečku. Nicméně i můj den má jen 24 hodin,
       musela jsem si tedy vytyčit hlavní oblasti, kterým budu věnovat čas, a
-      těmi jsou: psaní, programování, příroda (z vědeckého hlediska i z pozice
-      chovatele zvířat), vesmír a vzdělávání se, což mimo jiné zahrnuje studium
-      na univerzitě, čtení nonfiction knih a článků (nic přede mnou nezůstane
-      ušetřeno, zajímá mě ochrana přírody, psychologie, filozofie i kvantová
-      fyzika). Čtu i fikci, mezi mé nej autory řadím Isaaca Asimova, Lioue
-      Cch'-sina a Franze Kafku. Ve svém volném čase dále poslouchám hudbu (Karel
-      Gott navždy), stavím plastové modely, hraju Skyrim, venčím psa a chráním
-      skleničky před korelou a kabely před dvěma domestikovanými potkany.
-      Zkrátka (ne)typický představil generace Z.{" "}
+      těmi jsou:
+    </p>
+    <ul>
+      <li>psaní</li> <li>programování</li>{" "}
+      <li>příroda (z vědeckého hlediska i z pozice chovatele zvířat)</li>{" "}
+      <li>vesmír</li>{" "}
+      <li>
+        čtení - mezi mé nej autory řadím Isaaca Asimova, Lioue Cch'-sina a
+        Franze Kafku
+      </li>{" "}
+      <li>
+        vzdělávání se, což mimo jiné zahrnuje studium na univerzitě, čtení
+        nonfiction knih a článků (nic přede mnou nezůstane ušetřeno, zajímá mě
+        ochrana přírody, psychologie, filozofie i kvantová fyzika)
+      </li>{" "}
+    </ul>
+
+    <p>
+      Ve svém volném čase dále poslouchám hudbu (Karel Gott navždy), stavím
+      plastové modely, hraju Skyrim, venčím psa a chráním skleničky před korelou
+      a kabely před dvěma domestikovanými potkany. Zkrátka (ne)typický
+      představil generace Z.{" "}
     </p>
   </div>
 );

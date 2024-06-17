@@ -7,20 +7,27 @@ body {
 }
 
 * {
-  cursor: none;
+  cursor: none !important;
   caret-color: transparent;
+}
+a:hover {
+  background-color: blueviolet;
 }
 
 .custom-cursor {
   position: absolute;
-  width: 40px; /* Přizpůsobte velikost podle potřeby */
-  height: 40px; /* Přizpůsobte velikost podle potřeby */
-  background: url("./assets/Raketa1 (2).svg") no-repeat center center;
+  width: 45px; /* Přizpůsobte velikost podle potřeby */
+  height: 45px; /* Přizpůsobte velikost podle potřeby */
+  background: url("./assets/ufo.svg") no-repeat center center;
   background-size: contain;
   pointer-events: none;
   z-index: 1000;
 }
 
+p {
+  font-size: large;
+  font-family: "Segoe UI";
+}
 .stars {
   position: absolute;
   width: 100%;
@@ -46,6 +53,26 @@ body {
   }
   50% {
     opacity: 1;
+  }
+}
+
+.fire-trail {
+  position: absolute;
+  width: 5px; /* Přizpůsobte velikost podle potřeby */
+  height: 5px; /* Přizpůsobte velikost podle potřeby */
+  background: orange;
+  border-radius: 50%; /* Pro kulatý efekt */
+  pointer-events: none;
+  z-index: 999; /* Zajistěte, aby byla ohnivá čára nad ostatními prvky */
+  animation: fadeOut 0.5s forwards; /* Nastavte animaci pro mizící efekt */
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
