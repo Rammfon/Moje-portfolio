@@ -13,39 +13,21 @@ export const Header = () => (
     >
       <div class="navbar-end">
         <a
-          href="#about"
+          href="https://www.linkedin.com/in/dominika-jandorov%C3%A1-465a87220/"
           class="navbar-item has-text-primary-45"
           smooth={true}
           duration={1000}
         >
-          O mně
+          LinkedIn
         </a>
 
         <a
-          href="#skills"
+          href="https://medium.seznam.cz/autor/dominika-jandorova-2471"
           class="navbar-item has-text-primary-45"
           smooth={true}
           duration={1000}
         >
-          Moje dovednosti
-        </a>
-
-        <a
-          href="#edex"
-          class="navbar-item has-text-primary-45"
-          smooth={true}
-          duration={1000}
-        >
-          Vzdělání a praxe
-        </a>
-
-        <a
-          href="#references"
-          class="navbar-item has-text-primary-45"
-          smooth={true}
-          duration={1000}
-        >
-          Reference
+          Blog
         </a>
       </div>
     </div>
