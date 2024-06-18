@@ -17,6 +17,8 @@ export const Header = () => (
           class="navbar-item has-text-primary-45"
           smooth={true}
           duration={1000}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           LinkedIn
         </a>
@@ -26,6 +28,8 @@ export const Header = () => (
           class="navbar-item has-text-primary-45"
           smooth={true}
           duration={1000}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Blog
         </a>

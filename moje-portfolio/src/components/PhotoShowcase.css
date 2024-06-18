@@ -1,0 +1,54 @@
+.photo-showcase {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.photo-showcase h1 {
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.photo-showcase h1.images-hover:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.image {
+  margin: 0 10px;
+  max-width: 90%;
+}
+
+.image img {
+  max-width: auto;
+  height: 400px;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .image-container {
+    flex-direction: column;
+  }
+
+  button {
+    font-size: 1.5rem;
+  }
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,23 @@
+#edex {
+  text-align: center;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.slider-button {
+  background: none;
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+  color: #e2bd15;
+}
+
+.slider-content {
+  margin: 0 20px;
+  font-size: 1.5rem;
+}
