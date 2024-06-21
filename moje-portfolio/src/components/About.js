@@ -1,11 +1,10 @@
 import React from "react";
-
+import { PhotoShowcase } from "./PhotoShowcase";
 export const About = () => (
   <div id="about" class="pl-6 pr-4 pb-5 pt-5">
     <h1>O Dominice Jandorové (to jsem já)</h1>
+    <PhotoShowcase />
     <p>
-      Mé DNA tvoří z <strong> 84,63 % </strong>lidské geny, ten zbytek je
-      neznámého, mimozemského původu. Proto si ostatně často připadám jako ufon.
       Jak už jste si mohli všimnout, mám osobitý (zní to lépe než blbý) smysl
       pro humor, příliš bujarou fantazii a poměrně široký okruh zájmů. Jeden můj
       kamarád říká, že generalisti nikoho nezajímají, cení se experti. Já s tím

@@ -78,6 +78,31 @@ p {
     opacity: 0;
   }
 }
+#edex {
+  text-align: center;
+}
+
+#intro h1 {
+  text-align: center;
+}
+
+#about h1 {
+  text-align: center;
+}
+#skills h1 {
+  text-align: center;
+}
+
+#photoshowcase h1 {
+  text-align: center;
+}
+#references h1 {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+}
 .container {
   max-width: 1200px; /* Maximum width for larger screens */
   margin: 0 auto; /* Center the container */

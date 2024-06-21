@@ -3,13 +3,13 @@
   box-sizing: border-box;
 }
 
-.photo-showcase h1 {
+.photo-showcase h3 {
   cursor: pointer;
   display: inline-block;
   padding: 5px 10px;
 }
 
-.photo-showcase h1.images-hover:hover {
+.photo-showcase h3.images-hover:hover {
   background-color: blueviolet;
   color: white;
 }
@@ -30,13 +30,6 @@
 .image img {
   max-width: auto;
   height: 400px;
-}
-
-button {
-  background: none;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
 }
 
 @media (max-width: 600px) {

@@ -17,10 +17,7 @@ export const EdEx = () => {
       name: "KB SmartPay",
       url: "https://www.facebook.com/photo?fbid=327717373636682&set=a.139686215773133",
     },
-    {
-      name: "Bylinkopedie",
-      url: "https://bylinkopedie.cz/zlaten-vencova-informace/",
-    },
+
     {
       name: "Můj blog na Seznam Medium",
       url: "https://medium.seznam.cz/autor/dominika-jandorova-2471",
@@ -35,23 +32,20 @@ export const EdEx = () => {
     },
   ];
 
-  const handleNextSlide = () => {
+  const NextSlide = () => {
     setCurrentSlide((currentSlide + 1) % slides.length);
   };
 
-  const handlePrevSlide = () => {
+  const PrevSlide = () => {
     setCurrentSlide((currentSlide - 1 + slides.length) % slides.length);
   };
 
   return (
     <div id="edex" className="pl-6 pr-4 pb-5 pt-5">
       <h1>Přečtěte si mě</h1>
-      <p>
-        Za ty <strong>čtyři roky</strong>, co se copywriterství věnuji, jsem
-        toho napsala už docela hodně. Přečíst si mě můžete třeba na:
-      </p>
+
       <div className="slider-container">
-        <button onClick={handlePrevSlide} className="slider-button">
+        <button onClick={PrevSlide} className="slider-button">
           &lt;
         </button>
         <div className="slider-content">
@@ -60,12 +54,12 @@ export const EdEx = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="slide-link"
-            class="has-text-primary-45 is-size-3"
+            class="has-text-primary-45 is-size-4"
           >
             {slides[currentSlide].name}
           </a>
         </div>
-        <button onClick={handleNextSlide} className="slider-button">
+        <button onClick={NextSlide} className="slider-button">
           &gt;
         </button>
       </div>

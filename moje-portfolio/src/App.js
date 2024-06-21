@@ -10,7 +10,8 @@ import Stars from "./components/Stars";
 import GlobalStyle from "./components/GlobalStyle";
 import { motion } from "framer-motion";
 import { Footer } from "./components/Footer";
-import { PhotoShowcase } from "./components/PhotoShowcase";
+import { Contact } from "./components/Contact";
+
 const App = () => {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
   const cursorRef = useRef(null);
@@ -61,10 +62,11 @@ const App = () => {
       <section class="container content">
         <Intro />
         <About />
-        <PhotoShowcase />
+
         <Skills />
         <EdEx />
         <References />
+        <Contact />
       </section>
       <Footer />
     </div>

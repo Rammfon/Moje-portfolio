@@ -1,7 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
+import "./EdEx";
+export const References = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
 
-export const References = () => (
-  <div id="references" class="pl-6 pr-4 pb-4 pt-4">
-    <h1>Reference</h1>
-  </div>
-);
+  const slides = [
+    {
+      text: "I worked with Dominika for more than 1 year. She is a really talented content creator and translator. What sets Dominika apart from others is her responsibility and reliability. She is prompt in communication, creative and always meets deadlines. Dominika is a great part of the team and I definitely recommend her.",
+      name: "Daniel Škatuľár – Chief Marketing Officer at Staffino",
+    },
+  ];
+  const NextSlide = () => {
+    setCurrentSlide((currentSlide + 1) % slides.length);
+  };
+
+  const PrevSlide = () => {
+    setCurrentSlide((currentSlide - 1 + slides.length) % slides.length);
+  };
+  return (
+    <div id="references" className="pl-6 pr-4 pb-5 pt-5">
+      <h1>Co o mně říkají ostatní</h1>
+
+      <div className="slider-container">
+        <button onClick={PrevSlide} className="slider-button">
+          &lt;
+        </button>
+        <div className="slider-content">
+          <p>{slides[currentSlide].text}</p>
+          <p className="slide-link" class="has-text-primary-45 is-size-5">
+            {slides[currentSlide].name}
+          </p>
+        </div>
+        <button onClick={NextSlide} className="slider-button">
+          &gt;
+        </button>
+      </div>
+    </div>
+  );
+};
