@@ -19,7 +19,7 @@ export const EdEx = () => {
     },
 
     {
-      name: "Můj blog na Seznam Medium",
+      name: "Můj blog na Seznam Médium",
       url: "https://medium.seznam.cz/autor/dominika-jandorova-2471",
     },
     {

@@ -8,6 +8,10 @@ export const References = () => {
       text: "I worked with Dominika for more than 1 year. She is a really talented content creator and translator. What sets Dominika apart from others is her responsibility and reliability. She is prompt in communication, creative and always meets deadlines. Dominika is a great part of the team and I definitely recommend her.",
       name: "Daniel Škatuľár – Chief Marketing Officer at Staffino",
     },
+    {
+      text: "Dominika nám již rok pravidelně píše články z různých chovatelských kategorií na faunaportal.cz. Musím velice ocenit její aktivní a zodpovědný přístup z pohledu plnění domluvených termínů. Články jsou obsahově velmi dobře zpracovány. Velice si cením naší spolupráce.",
+      name: "Petr Kopeček – Fauna portál",
+    },
   ];
   const NextSlide = () => {
     setCurrentSlide((currentSlide + 1) % slides.length);

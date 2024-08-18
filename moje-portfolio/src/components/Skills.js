@@ -16,7 +16,7 @@ export const Skills = () => (
         </li>
         <li>
           <strong>reklamní texty</strong> – reklamní kampaně jsem textovala
-          např. KB SmartPay nebo Onlio APS{" "}
+          například pro KB SmartPay nebo Onlio APS{" "}
         </li>
         <li>
           <strong>newslettery</strong> – buďte ve spojení se svými zákazníky na
